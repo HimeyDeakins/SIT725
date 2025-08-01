@@ -1,0 +1,26 @@
+{
+  "name": "first-server",
+  "version": "1.0.0",
+  "description": "calculation server add any two number",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node public/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HimeyDeakins/SIT725.git"
+  },
+  "author": "Himey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HimeyDeakins/SIT725/issues"
+  },
+  "homepage": "https://github.com/HimeyDeakins/SIT725#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "morgan": "^1.10.1"
+  }
+}
